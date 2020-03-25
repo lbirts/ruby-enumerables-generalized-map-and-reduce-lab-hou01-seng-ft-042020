@@ -1,10 +1,10 @@
 # Your Code Here
-def map(element1)
-  new = []
-  i = 0 
-  while i <  element1.length do
-    new.push(yield(element1[i]))
-    i += 1 
+def map(source_array)
+  new_array = []
+  index = 0 
+  while index <  source_array.length do
+    new_array << source_array[index]
+    index += 1 
   end 
-  new
+  new_array
 end 
