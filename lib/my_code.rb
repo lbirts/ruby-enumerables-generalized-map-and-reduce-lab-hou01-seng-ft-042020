@@ -1,10 +1,10 @@
 # Your Code Here
 def map(source_array)
-  new_array = []
-  index = 0 
+  index = 0
+  array = []
   while index < source_array.length do
-    new_array << yeild(source_array[index])
-    index += 1 
-  end 
-  new_array
-end 
+    array << yield(source_array[index])
+    index+=1 
+  end
+  array
+end
